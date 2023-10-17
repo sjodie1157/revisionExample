@@ -10,3 +10,40 @@
 p {
     font-family: Arial, Helvetica, sans-serif;
 }
+nav {
+    width: 80%;
+    position: sticky;
+    margin: 0% auto;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+}
+
+.logoImage {
+    flex-basis: 20%;
+}
+.logoImage img {
+    width: 100px;
+}
+.nav-links {
+    flex: 1;
+    text-align: right;
+}
+.nav-links ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 30px;
+}
+.nav-links ul li a{
+    color: greenyellow;
+}
+body {
+    text-align: center;
+    display: grid;
+    grid-template-rows: auto minmax(1fr,100%);
+}
+
+/* header & footer */
+header, footer {
+    background-image: linear-gradient(to right, lightblue, yellow );
+}
